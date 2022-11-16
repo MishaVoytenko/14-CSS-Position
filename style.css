@@ -1,0 +1,86 @@
+body {
+  width: 1200px;
+  margin: 0 auto;
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 48px;
+  color: #000000;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Documentation {
+  display: flex;
+}
+
+.Documentation p:nth-child(1) {
+  margin-right: 50px;
+  font-family: "Tourney";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 18px;
+  letter-spacing: 0.04em;
+  transform: translateY(7%);
+}
+
+.Documentation p:nth-child(2) {
+  margin-right: 600px;
+  font-family: "Staatliches";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  letter-spacing: 0.03em;
+}
+
+.title {
+  margin-top: 70px;
+  margin-bottom: 40px;
+  font-family: "Francois One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 48px;
+  text-transform: uppercase;
+}
+
+.subtitle {
+  font-family: "Farro";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  text-transform: none;
+  transform: translateY(40%);
+}
+
+.title-text {
+  display: flex;
+  flex-direction: row;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.italic {
+  font-style: italic;
+}
+.fatty {
+  font-weight: 600;
+}
+
+.text {
+  margin-bottom: 40px;
+}
+
+.span {
+  background-color: rgb(214, 213, 213);
+}
